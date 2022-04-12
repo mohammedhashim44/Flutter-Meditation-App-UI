@@ -1,4 +1,6 @@
-Flutter Meditation App UI  
+# Flutter Meditation App UI  
+
+### To try the app download the apk from the [Release Tab](https://github.com/mohammedhashim44/Flutter-Meditation-App-UI/releases/download/1.0.0%2B1/app-release.apk)  
 -------------  
   
 ### Flutter Version Used : 2.5.3 
