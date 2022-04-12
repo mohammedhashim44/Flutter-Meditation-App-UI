@@ -1,16 +1,42 @@
-# meditation_app
 
-A new Flutter project.
+Flutter Meditation App UI  
+-------------  
+  
+### Flutter Version Used : 2.5.3 
+### Desing Credit : By  [Afsar Hossen](https://www.linkedin.com/in/afsar-shuvo/)  
+### Desing Files on Figma : [Meditation app UI](https://www.figma.com/community/file/882888114457713282)  
+  
+-------------  
 
-## Getting Started
+## Screenshots  
 
-This project is a starting point for a Flutter application.
+<p float="left">
+  <img src="screenshots/1.jpg" width="200" />
+  <img src="screenshots/2.jpg" width="200" />
+  <img src="screenshots/3.jpg" width="200" />
+  <img src="screenshots/4.jpg" width="200" />
+  <img src="screenshots/5.jpg" width="200" />
+  <img src="screenshots/11.jpg" width="200" />
+  <img src="screenshots/6.jpg" width="200" />
+  <img src="screenshots/7.jpg" width="200" />
+  <img src="screenshots/8.jpg" width="200" />
+  <img src="screenshots/9.jpg" width="200" />
+  <img src="screenshots/12.jpg" width="200" />
+  <img src="screenshots/13.jpg" width="200" />
+</p>
 
-A few resources to get you started if this is your first Flutter project:
+-------------  
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screens  
+- Splash Screen  
+- Welcome Screen  
+- Choose Topic Screen 
+- Home Screen
+- Meditate Screen
+- Course Details Screen  
+- Light Music Player Screen
+- Dark Music Player Screen
+- Welcome to Sleep Screen
+- Sleep Screen 
+- Sleep Music Details Screen
+- Sleep Music List Screen
