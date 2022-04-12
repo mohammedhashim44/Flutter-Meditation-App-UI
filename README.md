@@ -10,6 +10,10 @@ Flutter Meditation App UI
 
 ## Screenshots  
 
+<p>
+   <img src="screenshots/board.png" />
+</p>
+
 <p float="left">
   <img src="screenshots/1.jpg" width="200" />
   <img src="screenshots/2.jpg" width="200" />
