@@ -37,7 +37,10 @@ class VoicesTab extends StatelessWidget {
               ),
             ],
           ),
-          Divider(height: 0.1,color: AppTheme.of(context).theme.primaryColor.withOpacity(0.5),),
+          Divider(
+            height: 0.1,
+            color: AppTheme.of(context).theme.primaryColor.withOpacity(0.5),
+          ),
           Expanded(
             child: TabBarView(
               children: [

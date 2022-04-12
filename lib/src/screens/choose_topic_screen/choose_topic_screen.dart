@@ -59,6 +59,5 @@ class ChooseTopicScreen extends StatelessWidget {
     Navigator.of(context).pushAndRemoveUntil(
         MaterialPageRoute(builder: (context) => const BottomNavigationScreen()),
         (Route<dynamic> route) => false);
-
   }
 }

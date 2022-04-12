@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
-
 class MusicPlayerColors {
   final String background;
   final Color primaryTextColor;

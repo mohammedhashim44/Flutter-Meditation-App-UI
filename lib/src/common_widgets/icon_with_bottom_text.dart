@@ -19,8 +19,10 @@ class IconWithBottomText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Color selectedIconColor = AppTheme.of(context).theme.iconWithBottomTextSelectedIconColor;
-    Color selectedTextColor = AppTheme.of(context).theme.iconWithBottomTextSelectedTextColor;
+    Color selectedIconColor =
+        AppTheme.of(context).theme.iconWithBottomTextSelectedIconColor;
+    Color selectedTextColor =
+        AppTheme.of(context).theme.iconWithBottomTextSelectedTextColor;
     Color textColor = AppTheme.of(context).theme.iconWithBottomTextTextColor;
     Color iconColor = AppTheme.of(context).theme.iconWithBottomTextIconColor;
 

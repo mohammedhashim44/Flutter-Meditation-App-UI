@@ -64,24 +64,20 @@ class SleepHomeScreen extends StatelessWidget {
                   Row(
                     children: [
                       Expanded(
-                          child: SleepMusicCard(
-                              music: sleepMusicDummyData[0])),
+                          child: SleepMusicCard(music: sleepMusicDummyData[0])),
                       const SizedBox(width: 20),
                       Expanded(
-                          child: SleepMusicCard(
-                              music: sleepMusicDummyData[1])),
+                          child: SleepMusicCard(music: sleepMusicDummyData[1])),
                     ],
                   ),
                   const SizedBox(height: 20),
                   Row(
                     children: [
                       Expanded(
-                          child: SleepMusicCard(
-                              music: sleepMusicDummyData[2])),
+                          child: SleepMusicCard(music: sleepMusicDummyData[2])),
                       const SizedBox(width: 20),
                       Expanded(
-                          child: SleepMusicCard(
-                              music: sleepMusicDummyData[3])),
+                          child: SleepMusicCard(music: sleepMusicDummyData[3])),
                     ],
                   ),
                 ],
@@ -93,7 +89,7 @@ class SleepHomeScreen extends StatelessWidget {
     );
   }
 
-  void onPromotionCardClicked(BuildContext context){
+  void onPromotionCardClicked(BuildContext context) {
     Navigator.push(
       context,
       MaterialPageRoute(builder: (context) => const SleepMusicScreen()),

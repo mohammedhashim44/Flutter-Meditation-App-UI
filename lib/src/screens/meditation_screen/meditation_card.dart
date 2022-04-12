@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:meditation_app/src/common_widgets/app_text.dart';
 
-
 class MeditationCard extends StatelessWidget {
   final String image;
   final String text;

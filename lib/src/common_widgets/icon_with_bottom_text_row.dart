@@ -18,8 +18,11 @@ List<IconWithBottomTextData> icons = [
 ];
 
 class IconWithBottomTextRow extends StatefulWidget {
-  final bool isDark ;
-  const IconWithBottomTextRow({Key? key, this.isDark = false,}) : super(key: key);
+  final bool isDark;
+  const IconWithBottomTextRow({
+    Key? key,
+    this.isDark = false,
+  }) : super(key: key);
 
   @override
   _IconWithBottomTextRowState createState() => _IconWithBottomTextRowState();

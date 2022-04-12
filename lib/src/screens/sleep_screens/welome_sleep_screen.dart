@@ -57,7 +57,9 @@ class WelcomeSleepScreen extends StatelessWidget {
                   fit: BoxFit.cover,
                 ),
               ),
-              const Spacer(flex: 3,),
+              const Spacer(
+                flex: 3,
+              ),
               Container(
                 width: double.maxFinite,
                 padding: const EdgeInsets.symmetric(

@@ -5,7 +5,6 @@ import 'package:meditation_app/src/themes/theme.dart';
 
 import 'navigation_icon_widget.dart';
 
-
 class BottomNavigationScreen extends StatefulWidget {
   const BottomNavigationScreen({Key? key}) : super(key: key);
 
@@ -41,18 +40,15 @@ class _BottomNavigationScreenState extends State<BottomNavigationScreen> {
             selectedIndex = newIndex;
           });
         },
-
         unselectedItemColor: context.theme.unselectedNavTextColor,
         unselectedLabelStyle: const TextStyle(
           fontWeight: FontWeight.bold,
         ),
-
         selectedItemColor: AppTheme.of(context).theme.selectedNavTextColor,
         selectedLabelStyle: const TextStyle(
           fontWeight: FontWeight.bold,
         ),
         backgroundColor: AppTheme.of(context).theme.scaffoldBackgroundColor,
-
         type: BottomNavigationBarType.fixed,
         items: navigationTabsData.map((item) {
           int index = navigationTabsData.indexOf(item);
@@ -73,4 +69,3 @@ class _BottomNavigationScreenState extends State<BottomNavigationScreen> {
     return navigationTabsData.elementAt(selectedIndex).page;
   }
 }
-

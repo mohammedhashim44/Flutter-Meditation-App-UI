@@ -24,19 +24,18 @@ abstract class AppThemeData {
   Color get unselectedNavIconColor;
   Color get unselectedNavTextColor;
 
-  Color get iconWithBottomTextTextColor ;
-  Color get iconWithBottomTextSelectedTextColor ;
-  Color get iconWithBottomTextIconColor ;
-  Color get iconWithBottomTextSelectedIconColor ;
+  Color get iconWithBottomTextTextColor;
+  Color get iconWithBottomTextSelectedTextColor;
+  Color get iconWithBottomTextIconColor;
+  Color get iconWithBottomTextSelectedIconColor;
 
   Color get sleepMusicCardTextHeaderColor => const Color(0xffE6E7F2);
   Color get sleepMusicCardTextBodyColor => const Color(0xff98A1BD);
   Color get sleepMusicCardContrastColor => const Color(0xffE6E7F2);
-
 }
 
 class LightThemeData extends AppThemeData {
-  ThemeMode get mode  => ThemeMode.light;
+  ThemeMode get mode => ThemeMode.light;
 
   Color get primaryColor => const Color(0xff8E97FD);
   Color get scaffoldBackgroundColor => Colors.white;
@@ -53,15 +52,12 @@ class LightThemeData extends AppThemeData {
   Color get iconWithBottomTextSelectedTextColor => const Color(0xff3F414E);
   Color get iconWithBottomTextIconColor => const Color(0xffA0A3B1);
   Color get iconWithBottomTextSelectedIconColor => const Color(0xff8E97FD);
-
-
 }
 
 class DarkThemeData extends LightThemeData {
-  ThemeMode get mode  => ThemeMode.dark;
+  ThemeMode get mode => ThemeMode.dark;
 
   Color get scaffoldBackgroundColor => const Color(0xff03174C);
-
 
   Color get selectedNavTextColor => const Color(0xffE6E7F2);
   Color get unselectedNavIconColor => Colors.grey;

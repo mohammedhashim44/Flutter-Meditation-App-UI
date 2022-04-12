@@ -74,7 +74,10 @@ class SleepMusicCard extends StatelessWidget {
   void onCardClicked(BuildContext context) {
     Navigator.push(
       context,
-      MaterialPageRoute(builder: (context) => SleepMusicDetailsScreen(music: music,)),
+      MaterialPageRoute(
+          builder: (context) => SleepMusicDetailsScreen(
+                music: music,
+              )),
     );
   }
 }

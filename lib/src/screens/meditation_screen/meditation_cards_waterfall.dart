@@ -2,19 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:waterfall_flow/waterfall_flow.dart';
 import 'meditation_card.dart';
 
-
 class MeditationCardsWaterfallWidget extends StatelessWidget {
   const MeditationCardsWaterfallWidget({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-
     List<String> images = [
       "assets/images/meditation_cards/card_1.png",
       "assets/images/meditation_cards/card_2.png",
       "assets/images/meditation_cards/card_4.png",
       "assets/images/meditation_cards/card_2.png",
-
     ];
     return WaterfallFlow.builder(
       shrinkWrap: true,

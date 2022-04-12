@@ -4,7 +4,6 @@ import 'package:meditation_app/src/screens/sleep_screens/sleep_music_card_widget
 import 'package:meditation_app/src/screens/sleep_screens/sleep_music_card_widget/sleep_music_dummy_data.dart';
 import 'package:meditation_app/src/screens/sleep_screens/sleep_music_details_screen.dart';
 
-
 class SleepMusicScreen extends StatelessWidget {
   const SleepMusicScreen({Key? key}) : super(key: key);
 
@@ -36,7 +35,9 @@ class SleepMusicScreen extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                      builder: (context) => SleepMusicDetailsScreen(music: e,)),
+                      builder: (context) => SleepMusicDetailsScreen(
+                            music: e,
+                          )),
                 );
               },
               child: SleepMusicCard(

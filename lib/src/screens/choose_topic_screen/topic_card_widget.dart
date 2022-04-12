@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:meditation_app/src/common_widgets/app_text.dart';
 
-
 class Topic {
   final int id;
   final String iconPath;
@@ -10,13 +9,12 @@ class Topic {
   final Color textColor;
 
   Topic(
-      this.id,
-      this.iconPath,
-      this.title, {
-        this.textColor = Colors.black,
-      });
+    this.id,
+    this.iconPath,
+    this.title, {
+    this.textColor = Colors.black,
+  });
 }
-
 
 class TopicCardWidget extends StatelessWidget {
   final Topic topic;
@@ -25,10 +23,10 @@ class TopicCardWidget extends StatelessWidget {
   final double radius = 10.0;
 
   const TopicCardWidget(
-      this.topic, {
-        Key? key,
-        this.isSelected = false,
-      }) : super(key: key);
+    this.topic, {
+    Key? key,
+    this.isSelected = false,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -72,7 +70,7 @@ class TopicCardWidget extends StatelessWidget {
               children: [
                 const Spacer(),
                 AppText.normalText(
-                  topic.title ,
+                  topic.title,
                   isBold: true,
                   fontSize: 18,
                   textAlign: TextAlign.start,

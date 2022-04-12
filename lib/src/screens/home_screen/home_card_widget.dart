@@ -4,7 +4,6 @@ import 'package:meditation_app/src/common_widgets/app_buttons.dart';
 import 'package:meditation_app/src/common_widgets/app_text.dart';
 import 'package:meditation_app/src/screens/course_details_screen/course_details_screen.dart';
 
-
 class HomeCardWidget extends StatelessWidget {
   final String backgroundImage;
 
@@ -27,7 +26,6 @@ class HomeCardWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     return GestureDetector(
       onTap: () => onClicked(context),
       child: Container(

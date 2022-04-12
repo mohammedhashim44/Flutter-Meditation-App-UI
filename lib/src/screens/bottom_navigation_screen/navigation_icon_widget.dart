@@ -12,10 +12,10 @@ class NavigationIconWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Color backgroundColor =
-    isSelected ? context.theme.selectedNavIconColor : Colors.transparent;
+        isSelected ? context.theme.selectedNavIconColor : Colors.transparent;
 
     Color iconColor =
-    isSelected ? Colors.white : context.theme.unselectedNavIconColor;
+        isSelected ? Colors.white : context.theme.unselectedNavIconColor;
 
     return Container(
       padding: const EdgeInsets.all(4),

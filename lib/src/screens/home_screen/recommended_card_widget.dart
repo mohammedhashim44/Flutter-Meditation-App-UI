@@ -11,7 +11,6 @@ class RecommendedMusicData {
   RecommendedMusicData(this.image, this.title, this.subtext);
 }
 
-
 class RecommendedMusicCardWidget extends StatelessWidget {
   final RecommendedMusicData recommendedMusicData;
 

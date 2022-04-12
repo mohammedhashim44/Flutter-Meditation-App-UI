@@ -50,7 +50,9 @@ class SleepMusicDetailsScreen extends StatelessWidget {
                       music.title,
                       fontSize: 34,
                       isBold: true,
-                      color: AppTheme.of(context).theme.sleepMusicCardTextHeaderColor,
+                      color: AppTheme.of(context)
+                          .theme
+                          .sleepMusicCardTextHeaderColor,
                     ),
                     const SizedBox(
                       height: 15,
@@ -59,7 +61,9 @@ class SleepMusicDetailsScreen extends StatelessWidget {
                       music.duration,
                       fontSize: 14,
                       isBold: true,
-                      color: AppTheme.of(context).theme.sleepMusicCardTextBodyColor,
+                      color: AppTheme.of(context)
+                          .theme
+                          .sleepMusicCardTextBodyColor,
                     ),
                     const SizedBox(
                       height: 20,
@@ -68,7 +72,9 @@ class SleepMusicDetailsScreen extends StatelessWidget {
                       "Ease the mind into a "
                       "restful night's sleep with these deep tones",
                       fontSize: 16,
-                      color: AppTheme.of(context).theme.sleepMusicCardTextBodyColor,
+                      color: AppTheme.of(context)
+                          .theme
+                          .sleepMusicCardTextBodyColor,
                       textAlign: TextAlign.start,
                     ),
                     const SizedBox(
@@ -77,15 +83,23 @@ class SleepMusicDetailsScreen extends StatelessWidget {
                     Row(
                       children: [
                         FavoritesWidget(
-                          textColor: AppTheme.of(context).theme.sleepMusicCardContrastColor,
-                          iconColor: AppTheme.of(context).theme.sleepMusicCardContrastColor,
+                          textColor: AppTheme.of(context)
+                              .theme
+                              .sleepMusicCardContrastColor,
+                          iconColor: AppTheme.of(context)
+                              .theme
+                              .sleepMusicCardContrastColor,
                         ),
                         const SizedBox(
                           width: 50,
                         ),
                         ListeningWidget(
-                          iconColor: AppTheme.of(context).theme.sleepMusicCardContrastColor,
-                          textColor: AppTheme.of(context).theme.sleepMusicCardContrastColor,
+                          iconColor: AppTheme.of(context)
+                              .theme
+                              .sleepMusicCardContrastColor,
+                          textColor: AppTheme.of(context)
+                              .theme
+                              .sleepMusicCardContrastColor,
                         ),
                       ],
                     ),
@@ -96,7 +110,9 @@ class SleepMusicDetailsScreen extends StatelessWidget {
                       "Related",
                       fontSize: 24,
                       isBold: true,
-                      color: AppTheme.of(context).theme.sleepMusicCardContrastColor,
+                      color: AppTheme.of(context)
+                          .theme
+                          .sleepMusicCardContrastColor,
                     ),
                     const SizedBox(height: 20),
                     SizedBox(

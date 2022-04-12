@@ -61,7 +61,7 @@ class MusicPlayer extends StatelessWidget {
         child: SafeArea(
           child: Column(
             children: [
-              getHeaderIcons(context,musicPlayerColors),
+              getHeaderIcons(context, musicPlayerColors),
               const Spacer(
                 flex: 5,
               ),
@@ -91,11 +91,12 @@ class MusicPlayer extends StatelessWidget {
     );
   }
 
-  Widget getHeaderIcons(BuildContext context,MusicPlayerColors musicPlayerColors) {
+  Widget getHeaderIcons(
+      BuildContext context, MusicPlayerColors musicPlayerColors) {
     return Row(
       children: [
         InkWell(
-          onTap: (){
+          onTap: () {
             Navigator.pop(context);
           },
           child: const AppIconButton(
@@ -122,7 +123,9 @@ class MusicPlayer extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        ForwardWidget(color: musicPlayerColors.primaryTextColor,),
+        ForwardWidget(
+          color: musicPlayerColors.primaryTextColor,
+        ),
         const SizedBox(width: 50),
         Icon(
           Icons.pause_circle_filled,
@@ -130,7 +133,9 @@ class MusicPlayer extends StatelessWidget {
           color: musicPlayerColors.primaryTextColor,
         ),
         const SizedBox(width: 50),
-        BackWidget(color: musicPlayerColors.primaryTextColor,),
+        BackWidget(
+          color: musicPlayerColors.primaryTextColor,
+        ),
       ],
     );
   }
@@ -217,7 +222,9 @@ class ForwardWidget extends StatelessWidget {
         Transform(
           alignment: Alignment.center,
           transform: Matrix4.rotationY(math.pi),
-          child: ChangePlayBackIcon(color: color,),
+          child: ChangePlayBackIcon(
+            color: color,
+          ),
         ),
         Positioned.fill(
           child: Align(
@@ -242,7 +249,9 @@ class BackWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(
       children: [
-        ChangePlayBackIcon(color: color,),
+        ChangePlayBackIcon(
+          color: color,
+        ),
         Positioned.fill(
           child: Align(
             alignment: Alignment.center,

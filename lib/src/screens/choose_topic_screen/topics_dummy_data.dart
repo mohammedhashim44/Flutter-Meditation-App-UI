@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:meditation_app/src/screens/choose_topic_screen/topic_card_widget.dart';
 
-
 var topicsDummyData = [
   Topic(
     1,

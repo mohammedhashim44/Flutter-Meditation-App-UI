@@ -29,7 +29,7 @@ class CourseDetailsScreen extends StatelessWidget {
                   top: 0,
                   left: 0,
                   child: InkWell(
-                    onTap: (){
+                    onTap: () {
                       Navigator.pop(context);
                     },
                     child: Container(

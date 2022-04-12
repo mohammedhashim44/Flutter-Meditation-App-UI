@@ -3,7 +3,6 @@ import 'package:meditation_app/src/screens/choose_topic_screen/topic_card_widget
 import 'package:meditation_app/src/screens/choose_topic_screen/topics_dummy_data.dart';
 import 'package:waterfall_flow/waterfall_flow.dart';
 
-
 class TopicsWaterfallWidget extends StatefulWidget {
   const TopicsWaterfallWidget({Key? key}) : super(key: key);
 

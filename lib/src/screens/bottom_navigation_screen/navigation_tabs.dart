@@ -21,4 +21,3 @@ var navigationTabsData = [
   NavigationTabData(
       Icons.person, "PROFILE", const Center(child: Icon(Icons.person))),
 ];
-

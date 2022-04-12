@@ -15,7 +15,6 @@ class AppText {
         fontSize: fontSize,
         color: color,
         fontWeight: isBold ? FontWeight.bold : FontWeight.normal,
-
       ),
       textAlign: textAlign,
     );
